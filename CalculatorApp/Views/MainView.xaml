@@ -30,23 +30,23 @@
         <Button Content="%" Margin="5" FontSize="40" Grid.Column="2" Grid.Row="1"/>
         
         <!-- Math Operation Button -->
-        <Button x:Name="DividButton" Content="÷" Margin="5" FontSize="40" Grid.Column="3" Grid.Row="1" Click="DividButton_Click"/>
-        <Button x:Name="MultipleButton" Content="×" Margin="5" FontSize="40" Grid.Column="3" Grid.Row="2" Click="MultipleButton_Click"/>
-        <Button x:Name="MinusButton" Content="－" Margin="5" FontSize="40" Grid.Column="3" Grid.Row="3" Click="MinusButton_Click"/>
-        <Button x:Name="AddButton" Content="＋" Margin="5" FontSize="40" Grid.Column="3" Grid.Row="4" Click="AddButton_Click"/>
+        <Button x:Name="DividButton" Content="÷" Margin="5" FontSize="40" Grid.Column="3" Grid.Row="1" Click="MathOperationButton_Click"/>
+        <Button x:Name="MultipleButton" Content="×" Margin="5" FontSize="40" Grid.Column="3" Grid.Row="2" Click="MathOperationButton_Click"/>
+        <Button x:Name="MinusButton" Content="－" Margin="5" FontSize="40" Grid.Column="3" Grid.Row="3" Click="MathOperationButton_Click"/>
+        <Button x:Name="AddButton" Content="＋" Margin="5" FontSize="40" Grid.Column="3" Grid.Row="4" Click="MathOperationButton_Click"/>
         <Button x:Name="ResultButton" Content="＝" Margin="5" FontSize="40" Grid.Column="3" Grid.Row="5" Click="ResultButton_Click"/>
 
         <!-- Number Button -->
-        <Button x:Name="ZeroButton" Content="0" Margin="5" FontSize="40" Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="2" Click="ZeroButton_Click"/>
-        <Button x:Name="OneButton" Content="1" Margin="5" FontSize="40" Grid.Column="0" Grid.Row="4" Click="OneButton_Click"/>
-        <Button x:Name="TwoButton" Content="2" Margin="5" FontSize="40" Grid.Column="1" Grid.Row="4" Click="TwoButton_Click"/>
-        <Button x:Name="ThreeButton" Content="3" Margin="5" FontSize="40" Grid.Column="2" Grid.Row="4" Click="ThreeButton_Click"/>
-        <Button x:Name="FourButton" Content="4" Margin="5" FontSize="40" Grid.Column="0" Grid.Row="3" Click="FourButton_Click"/>
-        <Button x:Name="FiveButton" Content="5" Margin="5" FontSize="40" Grid.Column="1" Grid.Row="3" Click="FiveButton_Click"/>
-        <Button x:Name="SixButton" Content="6" Margin="5" FontSize="40" Grid.Column="2" Grid.Row="3" Click="SixButton_Click"/>
-        <Button x:Name="SevenButton" Content="7" Margin="5" FontSize="40" Grid.Column="0" Grid.Row="2" Click="SevenButton_Click" />
-        <Button x:Name="EightButton" Content="8" Margin="5" FontSize="40" Grid.Column="1" Grid.Row="2" Click="EightButton_Click"/>
-        <Button x:Name="NineButton" Content="9" Margin="5" FontSize="40" Grid.Column="2" Grid.Row="2" Click="NineButton_Click"/>
+        <Button x:Name="ZeroButton" Content="0" Margin="5" FontSize="40" Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="2" Click="NumberButton_Click"/>
+        <Button x:Name="OneButton" Content="1" Margin="5" FontSize="40" Grid.Column="0" Grid.Row="4" Click="NumberButton_Click"/>
+        <Button x:Name="TwoButton" Content="2" Margin="5" FontSize="40" Grid.Column="1" Grid.Row="4" Click="NumberButton_Click"/>
+        <Button x:Name="ThreeButton" Content="3" Margin="5" FontSize="40" Grid.Column="2" Grid.Row="4" Click="NumberButton_Click"/>
+        <Button x:Name="FourButton" Content="4" Margin="5" FontSize="40" Grid.Column="0" Grid.Row="3" Click="NumberButton_Click"/>
+        <Button x:Name="FiveButton" Content="5" Margin="5" FontSize="40" Grid.Column="1" Grid.Row="3" Click="NumberButton_Click"/>
+        <Button x:Name="SixButton" Content="6" Margin="5" FontSize="40" Grid.Column="2" Grid.Row="3" Click="NumberButton_Click"/>
+        <Button x:Name="SevenButton" Content="7" Margin="5" FontSize="40" Grid.Column="0" Grid.Row="2" Click="NumberButton_Click" />
+        <Button x:Name="EightButton" Content="8" Margin="5" FontSize="40" Grid.Column="1" Grid.Row="2" Click="NumberButton_Click"/>
+        <Button x:Name="NineButton" Content="9" Margin="5" FontSize="40" Grid.Column="2" Grid.Row="2" Click="NumberButton_Click"/>
 
         <Button Content="." Margin="5" FontSize="40" Grid.Column="2" Grid.Row="5"/>
         
