@@ -1,0 +1,15 @@
+C:\Users\kammo\source\repos\CalculatorApp\CalculatorApp\bin\Debug\CalculatorApp.exe.config
+C:\Users\kammo\source\repos\CalculatorApp\CalculatorApp\bin\Debug\CalculatorApp.exe
+C:\Users\kammo\source\repos\CalculatorApp\CalculatorApp\bin\Debug\CalculatorApp.pdb
+C:\Users\kammo\source\repos\CalculatorApp\CalculatorApp\obj\Debug\CalculatorApp.csprojAssemblyReference.cache
+C:\Users\kammo\source\repos\CalculatorApp\CalculatorApp\obj\Debug\Views\MainView.g.cs
+C:\Users\kammo\source\repos\CalculatorApp\CalculatorApp\obj\Debug\App.g.cs
+C:\Users\kammo\source\repos\CalculatorApp\CalculatorApp\obj\Debug\CalculatorApp_MarkupCompile.cache
+C:\Users\kammo\source\repos\CalculatorApp\CalculatorApp\obj\Debug\CalculatorApp_MarkupCompile.lref
+C:\Users\kammo\source\repos\CalculatorApp\CalculatorApp\obj\Debug\Views\MainView.baml
+C:\Users\kammo\source\repos\CalculatorApp\CalculatorApp\obj\Debug\CalculatorApp.g.resources
+C:\Users\kammo\source\repos\CalculatorApp\CalculatorApp\obj\Debug\CalculatorApp.Properties.Resources.resources
+C:\Users\kammo\source\repos\CalculatorApp\CalculatorApp\obj\Debug\CalculatorApp.csproj.GenerateResource.cache
+C:\Users\kammo\source\repos\CalculatorApp\CalculatorApp\obj\Debug\CalculatorApp.csproj.CoreCompileInputs.cache
+C:\Users\kammo\source\repos\CalculatorApp\CalculatorApp\obj\Debug\CalculatorApp.exe
+C:\Users\kammo\source\repos\CalculatorApp\CalculatorApp\obj\Debug\CalculatorApp.pdb
