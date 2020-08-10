@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using System;
+using System.Windows;
 using System.Windows.Controls;
 
 namespace CalculatorApp.Views
@@ -11,6 +12,7 @@ namespace CalculatorApp.Views
 
         long number1 = 0;
         long number2 = 0;
+
         string operation = "";
         public MainView()
         {
@@ -37,7 +39,28 @@ namespace CalculatorApp.Views
 
         private void MathOperationButton_Click(object sender, RoutedEventArgs e)
         {
+            if (!string.IsNullOrEmpty(operation))
+            {             
+                switch (operation)
+                {
+                    case "＋":
+                        number1 += number2;
+                        break;
+                    case "－":
+                        number1 -= number2;
+                        break;
+                    case "×":
+                        number1 *= number2;
+                        break;
+                    case "÷":
+                        number1 /= number2;
+                        break;
+                }
+                number2 = 0;
+            }
+
             operation = ((Button)sender).Content.ToString();
+            ResultBox.Text = number1.ToString();
         }
 
         private void ResultButton_Click(object sender, RoutedEventArgs e)
@@ -45,22 +68,21 @@ namespace CalculatorApp.Views
             switch(operation)
             {
                 case "＋":
-                    ResultBox.Text = (number1+number2).ToString();
-                    operation = "";
+                    number1 += number2;
                     break;
                 case "－":
-                    ResultBox.Text = (number1-number2).ToString();
-                    operation = "";
+                    number1 -= number2;
                     break;
                 case "×":
-                    ResultBox.Text = (number1*number2).ToString();
-                    operation = "";
+                    number1 *= number2;
                     break;
                 case "÷":
-                    ResultBox.Text = (number1/number2).ToString();
-                    operation = "";
+                    number1 /= number2;
                     break;
             }
+            number2 = 0;
+            operation = "";
+            ResultBox.Text = (number1).ToString();
         }
 
         private void ClearButton_Click(object sender, RoutedEventArgs e)
