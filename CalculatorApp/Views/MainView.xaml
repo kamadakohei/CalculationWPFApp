@@ -22,13 +22,13 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <TextBlock x:Name="ResultBox" Text="0" HorizontalAlignment="Right" VerticalAlignment="Bottom" FontSize="60" Grid.ColumnSpan="4"/>
-        
+
         <!-- Clear Button -->
         <Button x:Name="ClearButton" Content="AC" Margin="5" FontSize="40" Grid.Column="0" Grid.Row="1" Click="ClearButton_Click"/>
-        
-        <Button Content="+/-" Margin="5" FontSize="40" Grid.Column="1" Grid.Row="1"/>
-        <Button Content="%" Margin="5" FontSize="40" Grid.Column="2" Grid.Row="1"/>
-        
+
+        <Button x:Name="PlusMinusButton" Content="+/-" Margin="5" FontSize="40" Grid.Column="1" Grid.Row="1" Click="PlusMinusButton_Click"/>
+        <Button x:Name="PercentButton" Content="%" Margin="4.667,0,5.333,5.333" FontSize="40" Grid.Column="2" Grid.Row="1" Height="72" VerticalAlignment="Bottom" Click="PercentButton_Click"/>
+
         <!-- Math Operation Button -->
         <Button x:Name="DividButton" Content="÷" Margin="5" FontSize="40" Grid.Column="3" Grid.Row="1" Click="MathOperationButton_Click"/>
         <Button x:Name="MultipleButton" Content="×" Margin="5" FontSize="40" Grid.Column="3" Grid.Row="2" Click="MathOperationButton_Click"/>
@@ -49,6 +49,6 @@
         <Button x:Name="NineButton" Content="9" Margin="5" FontSize="40" Grid.Column="2" Grid.Row="2" Click="NumberButton_Click"/>
 
         <Button x:Name="PointButton" Content="." Margin="5" FontSize="40" Grid.Column="2" Grid.Row="5" Click="NumberButton_Click"/>
-        
+
     </Grid>
 </Window>
